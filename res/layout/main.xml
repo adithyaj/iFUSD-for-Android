@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/loading"
+    android:baselineAligned="false">
+    
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3" android:baselineAligned="false">
+		<LinearLayout android:orientation="vertical"  android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main1_news" android:layout_gravity="top" android:id="@+id/mainimg1"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main2_calendar" android:id="@+id/mainimg2" android:layout_gravity="top"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main3_resources" android:id="@+id/mainimg3" android:layout_gravity="top"></ImageView>
+		</LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout android:baselineAligned="false" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3">
+    	<LinearLayout android:orientation="vertical" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main4_boardofed" android:layout_gravity="top" android:id="@+id/mainimg4"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main5_district" android:id="@+id/mainimg5" android:layout_gravity="top"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main6_schools" android:id="@+id/mainimg6" android:layout_gravity="top"></ImageView>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout android:baselineAligned="false" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3">
+		<LinearLayout android:orientation="vertical" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main7_communications" android:layout_gravity="top" android:id="@+id/mainimg7"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main8_emergency" android:id="@+id/mainimg8" android:layout_gravity="top"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+			<ImageView android:layout_height="0dip" android:layout_width="fill_parent" android:layout_weight="1" android:src="@drawable/main9_settings" android:id="@+id/mainimg9" android:layout_gravity="top"></ImageView>
+		</LinearLayout>    	
+	</LinearLayout>
+
+
+</LinearLayout>

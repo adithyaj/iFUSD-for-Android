@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.fremontunified.ifusdandroid"
+      android:versionCode="4"
+      android:versionName="2.1">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="14"/>
+
+	<permission android:name="com.fremontunified.ifusdandroid.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+	<uses-permission android:name="com.fremontunified.ifusdandroid.permission.C2D_MESSAGE" /> 
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<!-- GCM connects to Google Services. -->
+	<uses-permission android:name="android.permission.INTERNET" /> 
+	<!-- GCM requires a Google account. -->
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<!-- Keeps the processor from sleeping when a message is received. -->
+	
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<supports-screens android:resizeable="true" />
+    <application android:icon="@drawable/ic_fusd" android:label="@string/app_name" android:theme="@style/CustomTheme" android:allowBackup="true">
+    	<receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+		  <intent-filter>
+		    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		    <category android:name="com.fremontunified.ifusdandroid" />
+		  </intent-filter>
+		</receiver>
+		<service android:name=".GCMIntentService" />
+    	<uses-library android:name="com.google.android.maps" />
+        <activity android:name=".FremontUnified"
+                  android:label="iFUSD">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".News"
+                  android:label="News">
+        </activity>
+        <activity android:name=".Resources"
+                  android:label="Resources">
+        </activity>
+        <activity android:name=".ResourcesSubList"
+            android:label="Resources">
+        </activity>
+        <activity android:name=".NavianceList"
+            android:label="Naviance">
+        </activity>
+        <activity android:name=".SchoolloopList"
+            android:label="Schoolloop">
+        </activity>
+        <activity android:name=".BoardOfEd"
+                  android:label="Board of Education">
+        </activity>
+        <activity android:name=".District"
+                  android:label="District">
+        </activity>
+
+        <activity android:name=".Schools"
+                  android:label="Schools">
+        </activity>
+        <activity android:name=".SchoolsList"
+                  android:label="Schools">
+        </activity>
+        <activity android:name=".SchoolInfo"
+                  android:label="School Information">
+        </activity>
+        <activity android:name=".MapViewScreen"
+                  android:label="School Map">
+        </activity>
+        <activity android:name="com.fremontunified.ifusdandroid.Communications"
+                  android:label="Communications">
+        </activity>
+        <activity android:name=".Emergency"
+                  android:label="Emergency">
+        </activity>
+        <activity android:name=".Settings"
+                  android:label="Settings">
+        </activity>
+        <activity android:name=".Preferences"
+                  android:label="Preferences">
+        </activity>
+        <activity android:name=".About"
+                  android:label="About">
+        </activity>
+        <activity android:name=".Rssweb"
+                  android:label="Rssweb">
+        </activity>
+        <activity android:name=".Website">
+        </activity>
+        <activity android:name=".Push">
+        </activity>
+        <activity android:name=".HtmlPage">
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />            
+        	</intent-filter>
+        </activity>
+        <activity android:name="com.fremontunified.ifusdandroid.NewsHTMLPage"
+            	  android:label="News">
+        </activity>
+
+        <!-- Code below for maps v2 (inactive at the moment)
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+            
+         -->
+        
+    </application>
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="push_school_list">
+        <item >All</item>
+        <item >American High</item>
+        <item >Irvington High</item>
+        <item >Kennedy High</item>
+        <item >Mission San Jose High</item>
+        <item >Robertson High</item>
+        <item >Washington High</item>
+        <item >Centerville Junior High</item>
+        <item >Hopkins Junior High</item>
+        <item >Horner Junior High</item>
+        <item >Thornton Junior High</item>
+        <item >Walters Junior High</item>
+        <item >Ardenwood Elementary</item>
+        <item >Azevada Elementary</item>
+        <item >Blacow Elementary</item>
+        <item >Brier Elementary</item>
+        <item >Brookvale Elementary</item>
+        <item >Cabrillo Elementary</item>
+        <item >Chadbourne Elementary</item>
+        <item >Durham Elementary</item>
+        <item >Forest Park Elementary</item>
+        <item >Glenmoor Elementary</item>
+        <item >Gomes Elementary</item>
+        <item >Green Elementary</item>
+        <item >Grimmer Elementary</item>
+        <item >Hirsch Elementary</item>
+        <item >Leitch Elementary</item>
+        <item >Maloney Elementary</item>
+        <item >Mattos Elementary</item>
+        <item >Millard Elementary</item>
+        <item >Mission San Jose Elementary</item>
+        <item >Mission Valley Elementary</item>
+        <item >Niles Elementary</item>
+        <item >Oliveira Elementary</item>
+        <item >Parkmont Elementary</item>
+        <item >Patterson Elementary</item>
+        <item >Vallejo Mill Elementary</item>
+        <item >Warm Springs Elementary</item>
+        <item >Warwick Elementary</item>
+        <item >Weibel Elementary</item>
+    </string-array>
+    <string name="hello">Hello World, DroidFUSD!</string>
+    <string name="app_name">iFUSD for Android</string>
+    <string name="gcm_registered">Device Registered for Notifications</string>
+    <string name="gcm_unregistered">Device Unregistered from Notifications</string>
+    <string name="server_registered">Server Registered for Notifications</string>
+    <string name="server_register_error">There was an error in server registration</string>
+    <string name="server_registering">Server Registering for Notifications</string>
+    <string name="server_unregistered">Server Unregistered from Notifications</string>
+    <string name="server_unregister_error">There was an error unregistering the server</string>
+    <string name="gcm_register_button">Register to receive notifications from the district</string>
+    <string name="gcm_unregister_button">Unregister from receiving notifications from the district</string>
+    <string name="about_desc">The iFUSD application was created to provide the local community with a quick, convenient way to stay connected to the FUSD.</string>
+    <string name="dev1d">Android Developer: Adithya Jayachandran</string>
+    <string name="dev2d">Android Developer: Krishna Bharathala</string>
+    <string name="pm">Project Manager: Anna Zeng</string>
+ 
+</resources>

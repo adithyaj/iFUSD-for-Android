@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="top" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version: 1.0"
+            android:paddingTop="20dip" 
+            android:paddingBottom="20dip" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright: Fremont Unified" 
+            android:paddingBottom="70dip" />
+        <Button
+            android:id="@+id/tellfriend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tell a Friend" 
+            />
+        <View android:layout_height="50dip"
+            android:layout_width="match_parent"/>
+        <Button
+            android:id="@+id/feedbackbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Feedback, Bugs, and Suggestions"
+            />
+
+
+
+    </LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About the Team"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FUSD CTO: David Thornley"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingBottom="10dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:text="@string/dev1d"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:text="@string/dev2d"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:text="@string/pm"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_desc"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingBottom="20dip" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fremont Unified School District"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingBottom="20dip" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4210 Technology Drive Fremont, CA 94539"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingBottom="10dip" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:paddingBottom="20dip"
+            android:text="(510)657-2350"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+    </ScrollView>

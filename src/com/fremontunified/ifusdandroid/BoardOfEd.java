@@ -32,13 +32,12 @@ public class BoardOfEd extends ListActivity {
         final TextView myTitleText = (TextView) findViewById(R.id.header);
             myTitleText.setText(this.getTitle());
             myTitleText.setGravity(Gravity.CENTER);
-
-	    //
 		
 		String[] boardTitles = {"Board Meetings", "Agendas and Minutes", "Board Members", "Board Policies", "SURFBoardE"};
 		String[] boardDescriptions = {"Dates and times of Meetings", "Read Agendas from the Archives!", "Contact Board Members", "District Policies and Regulations", "Student liaisons to the Board of Ed"};
 		
 	    this.setListAdapter(new CustomArrayAdapter(this, boardTitles, boardDescriptions));
+	    
 	}
 	
 		@Override
